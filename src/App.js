@@ -1,14 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './front/Components/Navbar';
-import About from './front/Components/About';
+import Welcome from './front/Components/Welcome';
+import Tabs from './front/Components/Tabs';
+import Footer from './front/Components/Footer';
+
 
 function App() {
   return (
     <div>
       <Navbar/>
-      <About/>
-      
+      <Welcome/>
+      <Tabs/>
+      <Footer/>
+
     </div>
   );
 }

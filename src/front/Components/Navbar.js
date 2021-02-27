@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 
-function Navbar(){
+const Navbar = () =>{
     return(
         <div>
             <Nav className="justify-content-center" activeKey="/home">
