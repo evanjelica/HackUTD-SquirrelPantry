@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 
+
 const Navbar = () =>{
     return(
         <div>
@@ -10,6 +11,9 @@ const Navbar = () =>{
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link eventKey="link-1">About</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link eventKey="link-2">Assistance</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link eventKey="link-2">Contact</Nav.Link>

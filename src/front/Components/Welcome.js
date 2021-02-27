@@ -8,7 +8,7 @@ const Welcome = (props) => {
         <Jumbotron fluid>
           <Container fluid>
             <h1 className="display-3">Welcome to the Squirrel Pantry</h1>
-            <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p className="lead">In February 2021, Texas experienced a sudden snow storms that affected ___ Texas residents.</p>
           </Container>
         </Jumbotron>
       </div>
