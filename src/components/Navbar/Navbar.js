@@ -43,7 +43,7 @@ function Navbar() {
           <NavbarContainer>
             <NavLogo to='/' onClick={closeMobileMenu}>
               <NavIcon />
-              ULTRA
+              Squirrel Pantry
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
