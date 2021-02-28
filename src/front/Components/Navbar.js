@@ -4,19 +4,19 @@ import Nav from 'react-bootstrap/Nav';
 
 const Navbar = () =>{
     return(
-        <div>
-            <Nav className="justify-content-center" activeKey="/home">
-                <Nav.Item>
-                    <Nav.Link href="/home">Home</Nav.Link>
+        <div className="navbar">
+            <Nav className="justify-content-center" activeKey="/">
+                <Nav.Item className="navlinks">
+                    <Nav.Link href="/">Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-1">About</Nav.Link>
+                    <Nav.Link eventKey="about">About</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-2">Assistance</Nav.Link>
+                    <Nav.Link eventKey="/assistance">Get help!</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-2">Contact</Nav.Link>
+                    <Nav.Link eventKey="contact">Contact</Nav.Link>
                 </Nav.Item>
             </Nav>
         </div>

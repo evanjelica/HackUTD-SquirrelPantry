@@ -17,13 +17,20 @@ code {
     monospace;
 }
 
+.navbar{
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(255, 155, 155);
+}
+
 .footer{
   margin-top: 1rem;
-  justify-content: center;
+  text-align: center;
   padding: 1rem;
-  background-color: rgb(255, 197, 179);
-  position: fixed;
+  background-color: rgb(255, 155, 155);
+  position: fixed; 
   bottom: 0;
   left: 0;
   width: 100%;
 }
+
