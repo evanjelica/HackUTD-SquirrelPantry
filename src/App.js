@@ -4,6 +4,7 @@ import './App.css';
 import LandingPage from './front/Components/LandingPage';
 import Navbar from './front/Components/Navbar';
 import Assist from './front/Components/Assist'
+import Team from './front/Components/Team'
 import Footer from './front/Components/Footer';
 
 import React from "react"
@@ -25,6 +26,10 @@ function App() {
 
             <Route path= "/assistance">
               <Assist/>
+            </Route>
+
+            <Route path= "/team">
+              <Team/>
             </Route>
 
           </Switch>
